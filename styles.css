@@ -29,3 +29,18 @@ nav {
 .logo-img {
     width: 100px;
 }
+
+main {
+    padding: 2rem;
+}
+
+.intro h1 {
+    color: #f8b400;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}

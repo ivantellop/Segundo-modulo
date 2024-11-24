@@ -13,6 +13,7 @@ nav {
     background-color: #f8b400;
     padding: 1rem;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -53,7 +54,43 @@ main {
 .intro h1 {
     color: #f8b400;
 }
-
+/* Estilos para la cuadrícula del menú */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .menu-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px); /* Efecto al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .menu-item h2 {
+    margin: 1rem 0 0.5rem;
+    color: #f8b400;
+  }
+  
+  .menu-item p {
+    color: #666;
+  }
+  
 footer {
     text-align: center;
     background-color: #333;

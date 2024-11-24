@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tienda de Comida</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Ivan's burgers</h1>
-      <nav>
-        <ul>
-          <li><a href="#menu">Menú</a></li>
-          <li><a href="#about">Sobre Nosotros</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tienda</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlacé al archivo CSS externo -->
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img src="./img/logo.png" alt="Logo de la tienda" class="logo-img">
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="menu.html">Menú</a></li>
+      <li><a href="restaurantes.html">Restaurantes</a></li>
+      <li><a href="cupones.html">Cupones</a></li>
+    </ul>
+  </nav>
     </header>
     <main>
-      <!-- Las secciones se agregarán más adelante -->
-    </main>
+        <section class="intro">
+          <h1>¡Bienvenidos a Mi Tienda!</h1>
+          <p>Somos tu lugar favorito para disfrutar comida deliciosa y combos irresistibles. ¡Conoce nuestras especialidades!</p>
+        </section>
+    
+        <section class="destacados">
+          <div class="comida-mas-vendida">
+            <h2>La comida más vendida</h2>
+            <p>Prueba nuestra especialidad: Hamburguesa Doble Sabor con papas y bebida. ¡Te encantará!</p>
+          </div>
+    
+          <div class="cupon-del-mes">
+            <h2>¡Cupón del mes!</h2>
+            <p>Obtén un 20% de descuento en tu pedido de combo familiar. <a href="cupones.html">Aprovecha aquí</a>.</p>
+          </div>
+        </section>
+      </main>
     <footer>
       <p>&copy; 2024 Ivan's burgers. Todos los derechos reservados.</p>
     </footer>

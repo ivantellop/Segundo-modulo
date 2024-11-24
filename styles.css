@@ -27,8 +27,18 @@ nav {
 }
 
 .logo-img {
-    width: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Forma circular */
+    border: 2px solid #fff; /* Borde blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+    transition: transform 0.3s ease; /* Animación */
 }
+
+.logo-img:hover {
+    transform: scale(1.1); /* Efecto zoom al pasar el cursor */
+}
+
 
 main {
     padding: 2rem;

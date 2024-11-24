@@ -7,23 +7,27 @@
   <title>Ivan's burgers</title>
   <link rel="stylesheet" href="styles.css"> <!-- Enlacé al archivo CSS externo -->
   <link rel="icon" href="./assets/hamburguesa.ico">
+  <script src="script.js"></script>
 </head>
 
 <body>
   <!-- Menú de navegación -->
   <nav>
     <div class="logo">
-      <a href="index.html">
-        <img src="./img/logo.png" alt="Logo de la tienda" class="logo-img">
-    </div>
-    </a>
+        <a href="index.html">
+            <img src="./img/logo.png" alt="Logo de la tienda" class="logo-img">
+        </a>
     </div>
     <ul class="nav-links">
-      <li><a href="menu.html">Menú</a></li>
-      <li><a href="restaurantes.html">Restaurantes</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="index.html" class="nav-item">Inicio</a></li>
+        <li><a href="restaurantes.html" class="nav-item">Restaurantes</a></li>
+        <li><a href="contacto.html" class="nav-item">Contacto</a></li>
     </ul>
-  </nav>
+    <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+</nav>
+
   </header>
   <main>
     <section class="intro">

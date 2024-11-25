@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./assets/hamburguesa.ico" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="logo">
-            <a href="index.html">
-                <img src="./img/logo.png" alt="Logo de la tienda" class="logo-img">
-            </a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="menu.html">Menú</a></li>
-        </ul>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="Logo de la tienda" class="logo-img" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menú</a></li>
+      </ul>
     </nav>
     <main class="contacto">
-        <h1>Contáctanos</h1>
-        <p>¿Tienes preguntas o necesitas ayuda? Completa el formulario y te responderemos a la brevedad.</p>
+      <h1>Contáctanos</h1>
+      <p>
+        ¿Tienes preguntas o necesitas ayuda? Completa el formulario y te
+        responderemos a la brevedad.
+      </p>
 
-        <form action="submit_form.php" method="POST">
-            <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
-            </div>
-            <div class="form-group">
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="correo" name="correo" required placeholder="Tu correo">
-            </div>
-            <div class="form-group">
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" required
-                    placeholder="Escribe tu mensaje aquí"></textarea>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
+      <form action="submit_form.php" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            placeholder="Tu nombre"
+          />
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo Electrónico:</label>
+          <input
+            type="email"
+            id="correo"
+            name="correo"
+            required
+            placeholder="Tu correo"
+          />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            required
+            placeholder="Escribe tu mensaje aquí"
+          ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
     </main>
     <footer>
-        <p>&copy; 2024 Ivan's kitchen. Todos los derechos reservados.</p>
-        <ul class="footer-links">
-          <li><a href="politicas.html">Políticas de privacidad</a></li>
-        </ul>
-      </footer>
-</body>
-
+      <p>&copy; 2024 Ivan's kitchen. Todos los derechos reservados.</p>
+      <ul class="footer-links">
+        <li><a href="politicas.html">Políticas de privacidad</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>

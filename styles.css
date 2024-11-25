@@ -1,4 +1,11 @@
 /* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Uso box-sizing para incluir padding y border en el tamaño total */
+    font-family: 'system-ui', sans-serif; /* Fuente general */
+  }
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0;

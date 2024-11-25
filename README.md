@@ -3,7 +3,7 @@
 ¡Bienvenido a mi repositorio del Segundo Módulo! Este proyecto corresponde al desarrollo de una página web estática que promociona **Ivan's kitchen**, un restaurante ficticio especializado en diversos tipos de comida rápida. 
 
 ## 🌐 Enlace al sitio web
-Visita el sitio publicado: [Ivan's Burgers](https://ivantellop.github.io/Segundo-modulo/)
+Visita el sitio publicado: [Ivan's kitchen](https://ivantellop.github.io/Segundo-modulo/)
 
 ## 📂 Estructura del Proyecto
 Este proyecto contiene las siguientes secciones principales:

@@ -22,6 +22,27 @@
             <li><a href="politicas.html">Políticas</a></li>
         </ul>
     </nav>
+    <main class="contacto">
+        <h1>Contáctanos</h1>
+        <p>¿Tienes preguntas o necesitas ayuda? Completa el formulario y te responderemos a la brevedad.</p>
+
+        <form action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required placeholder="Tu correo">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required
+                    placeholder="Escribe tu mensaje aquí"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
 </body>
 
 </html>

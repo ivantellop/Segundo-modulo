@@ -71,6 +71,40 @@ main {
   font-size: 1.1rem;
 }
 
+/* Sección de destacados */
+.destacados {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.destacados div {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destacados div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.destacados h2 {
+  color: #f8b400;
+  margin-bottom: 1rem;
+}
+
+.destacados p {
+  color: #333;
+  font-size: 1rem;
+}
+
 /* Estilos para la cuadrícula del menú */
 .menu-grid {
   display: grid;

@@ -21,6 +21,14 @@ body.dark-theme {
   font-family: system-ui, arial, sans-serif;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--color-primario);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
@@ -59,6 +67,10 @@ nav {
 .nav-links a:hover {
   background-color: var(--color-blanco); /* Fondo blanco al pasar el cursor */
   color: var(--color-primario);
+}
+
+.logo {
+  position: relative;
 }
 
 .logo-img {
@@ -168,7 +180,7 @@ footer {
   text-align: center;
   background-color: var(--color-texto);
   color: var(--color-blanco);
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .footer-links {
@@ -268,3 +280,4 @@ button:hover {
     gap: 1rem;
   }
 }
+

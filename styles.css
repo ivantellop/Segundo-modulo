@@ -1,9 +1,16 @@
-/* Variables globales */
+/*Variables globales para las paletas de colores*/
 :root {
   --color-primario: #f8b400;
   --color-texto: #666;
   --color-fondo: #f9f9f9;
   --color-blanco: #fff;
+}
+
+body.dark-theme {
+  --color-primario: #f0a500;
+  --color-texto: #f0f0f0;
+  --color-fondo: #1a1a1a;
+  --color-blanco: #2b2b2b;
 }
 
 /*  General */

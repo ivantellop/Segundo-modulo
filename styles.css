@@ -7,10 +7,10 @@
 }
 
 body.dark-theme {
-  --color-primario: #f39c12; 
-  --color-texto: #d4d4d4;  
-  --color-fondo: #1a1a1a;    
-  --color-blanco: #262626; 
+  --color-primario: #f39c12;
+  --color-texto: #d4d4d4;
+  --color-fondo: #1a1a1a;
+  --color-blanco: #262626;
 }
 
 /*  General */
@@ -288,7 +288,7 @@ button:hover {
   font-size: 1.5rem;
   cursor: pointer;
   transition: transform 0.3s ease;
-}  
+}
 
 #theme-toggle:hover {
   transform: rotate(360deg);
@@ -306,6 +306,6 @@ button:hover {
   }
 }
 
-.intro h1 {
+.intro h1, .contacto h1, .politicas h1 {
   animation: fadeIn 1s ease-out;
 }

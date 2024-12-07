@@ -281,3 +281,15 @@ button:hover {
   }
 }
 
+/* Efecto de transición en el botón de cambio de tema */
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}  
+
+#theme-toggle:hover {
+  transform: rotate(360deg);
+}

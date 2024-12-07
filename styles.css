@@ -293,3 +293,19 @@ button:hover {
 #theme-toggle:hover {
   transform: rotate(360deg);
 }
+
+/* Animación de entrada para el texto del encabezado */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro h1 {
+  animation: fadeIn 1s ease-out;
+}

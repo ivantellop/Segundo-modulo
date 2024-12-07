@@ -317,3 +317,8 @@ button:hover {
 h1, h2, p {
   font-family: inherit;
 }
+
+.nav-links a:focus, .footer-links a:focus {
+  outline: 2px solid var(--color-primario);
+  outline-offset: 2px;
+}

@@ -35,6 +35,7 @@ body {
   line-height: 1.6;
   text-align: center;
   transition: background-color 0.5s ease, color 0.5s ease;
+  overflow-x: hidden;
 }
 
 /* Navegación */
@@ -99,7 +100,7 @@ main {
   margin-bottom: 1rem;
 }
 
-.intro p {
+.intro p{
   color: var(--color-texto);
   font-size: 1.1rem;
 }
@@ -122,6 +123,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.8s ease-out;
 }
 
 .destacados div:hover {
@@ -154,6 +156,7 @@ main {
   border-radius: 10px; /* Esquinas redondeadas */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
   transition: transform 0.3s, box-shadow 0.3s;
+  animation: fadeIn 1s ease-out;
 }
 
 .menu-item:hover {
@@ -315,10 +318,29 @@ button:hover {
 
 /* Hereda la fuente del body */
 h1, h2, p {
-  font-family: inherit;
+  font-family: inherit; 
+  animation: fadeIn 1s ease-out;
+  animation-fill-mode: forwards;
 }
 
 .nav-links a:focus, .footer-links a:focus {
   outline: 2px solid var(--color-primario);
   outline-offset: 2px;
+}
+
+.contacto form {
+  animation: slideUp 0.7s ease-out;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -26,3 +26,9 @@ searchBar.addEventListener("input", (e) => {
     item.style.display = text.includes(query) ? "block" : "none";
   });
 });
+
+const notification = document.getElementById("notification");
+setTimeout(() => {
+  notification.classList.remove("hidden");
+  setTimeout(() => notification.classList.add("hidden"), 5000);
+}, 2000);

@@ -357,3 +357,21 @@ h1, h2, p {
   outline: none;
   box-shadow: 0 0 5px var(--color-primario);
 }
+
+#notification {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  animation: fadeInOut 5s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20%, 80% { opacity: 1; }
+  100% { opacity: 0; }
+}

@@ -344,3 +344,16 @@ h1, h2, p {
     transform: translateY(0);
   }
 }
+
+#search-bar {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-texto);
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+#search-bar:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--color-primario);
+}

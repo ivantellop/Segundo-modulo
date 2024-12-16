@@ -16,3 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("theme", currentTheme); // Guardar preferencia
   });
 });
+
+const searchBar = document.getElementById("search-bar");
+searchBar.addEventListener("input", (e) => {
+  const query = e.target.value.toLowerCase();
+  const items = document.querySelectorAll(".menu-item");
+  items.forEach(item => {
+    const text = item.textContent.toLowerCase();
+    item.style.display = text.includes(query) ? "block" : "none";
+  });
+});
